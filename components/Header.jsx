@@ -31,8 +31,8 @@ class Header extends Component {
   }
 }
 
-/*Header.propTypes = {
+Header.propTypes = {
   addTodo: PropTypes.func.isRequired
-};*/
+};
 
 export default Header;
