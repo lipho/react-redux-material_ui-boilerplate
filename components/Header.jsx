@@ -8,10 +8,6 @@ const defaultStyle = {
 };
 
 class Header extends Component {
-  constructor(props) {
-    super(props)
-  }
-
   handleSave(text) {
     if (text.length !== 0) {
       this.props.addTodo(text);
